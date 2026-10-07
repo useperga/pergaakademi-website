@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Perga Tech Akademi | Uygulamalı Yapay Zekâ Eğitimleri</title>
+    <meta
+      name="description"
+      content="Öğretmenler, öğrenciler ve kurumlar için uygulamalı AI eğitimleri. Temel becerilerden yaratıcı projelere ve dijital ürün geliştirmeye uzanan öğrenme yolunuzu keşfedin."
+    />
+    <meta name="theme-color" content="#123540" />
+    <meta property="og:title" content="Perga Tech Akademi" />
+    <meta property="og:description" content="Yapay zekâyı anlayın. Güvenle kullanın. Üretin." />
+    <link rel="icon" type="image/png" href="/media/favicon.png" />
+    <link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body>
+    <div class="sea" aria-hidden="true"></div>
+    <a class="skip" href="#icerik">İçeriğe geç</a>
+
+    <header class="nav" data-nav data-theme="night">
+      <a class="nav__brand" href="#hero" aria-label="Perga Tech Akademi, ana sayfa">
+        <img src="/media/logo.svg" alt="Perga Tech Akademi" width="164" height="40" />
+      </a>
+      <nav class="nav__links" aria-label="Ana menü">
+        <a href="#egitimler">Eğitimler</a>
+        <a href="#seminerler">Seminerler &amp; Workshoplar</a>
+        <a href="#kurumsal">Kurumsal Eğitim</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <a class="btn btn--accent nav__cta" href="#iletisim">Bilgi Al</a>
+      <button class="nav__menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menüyü aç">
+        <span data-icon="list"></span>
+      </button>
+    </header>
+
+    <div class="menu" id="menu" hidden>
+      <nav aria-label="Mobil menü">
+        <a href="#egitimler">Eğitimler</a>
+        <a href="#seminerler">Seminerler &amp; Workshoplar</a>
+        <a href="#kurumsal">Kurumsal Eğitim</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <a class="btn btn--accent btn--wide" href="#iletisim">Bilgi Al</a>
+    </div>
+
+    <main id="icerik">
+      <!-- HERO: one scroll-scrubbed timeline (see src/story.js) -->
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero__stage">
+          <canvas class="hero__film" aria-hidden="true"></canvas>
+          <video class="hero__video" muted playsinline preload="auto" aria-hidden="true" hidden></video>
+          <div class="hero__progress" aria-hidden="true"><span></span></div>
+
+          <div class="hero__copy">
+            <p class="cue cue--a" data-cue="a" aria-hidden="true">
+              <span class="mask"><span data-k="0">Yapay zekâyı</span></span>
+              <span class="mask"><span data-k="1">anlayın.</span></span>
+            </p>
+
+            <p class="cue cue--b" data-cue="b" aria-hidden="true">
+              <span data-k="0">Güvenle</span>
+              <span data-k="1">kullanın.</span>
+            </p>
+
+            <p class="cue cue--note" data-cue="note">
+              Pergeli Apollonios, MÖ 3. yüzyılda elipsi, parabolü ve hiperbolü tek bir koninin kesitleri olarak tanımladı.
+              Öğrenmek, bakış açısını değiştirmektir.
+            </p>
+
+            <p class="cue cue--c" data-cue="c" aria-hidden="true">
+              <span data-k="0">Ü</span><span data-k="1">r</span><span data-k="2">e</span><span data-k="3">t</span><span data-k="4">i</span><span data-k="5">n</span><span data-k="6">.</span>
+            </p>
+
+            <div class="cue cue--d" data-cue="d">
+              <h1 id="hero-title">
+                <span class="mask"><span data-k="0">Yapay zekâyı anlayın.</span></span>
+                <span class="mask"><span data-k="1">Güvenle kullanın.</span></span>
+                <span class="mask"><span data-k="2">Üretin.</span></span>
+              </h1>
+              <p data-k="3">Temel becerilerden yaratıcı projelere ve dijital ürün geliştirmeye uzanan öğrenme yolunuzu keşfedin.</p>
+            </div>
+          </div>
+
+          <div class="hero__dock cue" data-cue="dock" data-interactive>
+            <p>Öğretmenler, öğrenciler ve kurumlar için uygulamalı AI eğitimleri.</p>
+            <div class="actions">
+              <a class="btn btn--light" href="#egitimler">Eğitimleri Keşfet</a>
+              <a class="btn btn--line" href="#iletisim">Bana Uygun Programı Bul</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AUDIENCES -->
+      <section class="audience" id="hedef" data-bg="milk" aria-labelledby="hedef-title">
+        <div class="wrap">
+          <div class="audience__head">
+            <h2 class="h2 rv" id="hedef-title">
+              <span class="mask"><span>Hedefinize uygun</span></span>
+              <span class="mask"><span style="--d: 1">AI eğitimi</span></span>
+            </h2>
+            <div class="jx-spot jx-spot--hedef" data-jx-spot="hedef" aria-hidden="true"></div>
+          </div>
+
+          <ol class="audience__rows" role="list">
+            <li class="row rv">
+              <a class="row__link" href="#egitimler" data-track="ogretmen">
+                <span class="row__name mask"><span>Öğretmenler için AI</span></span>
+                <span class="row__text">Ders hazırlayın, materyal geliştirin ve günlük işlerinizi kolaylaştırın. Kendi eğitim araçlarınızı tasarlamaya kadar ilerleyin.</span>
+                <span class="row__go" data-icon="arrow-up-right"></span>
+              </a>
+            </li>
+            <li class="row rv">
+              <a class="row__link" href="#egitimler" data-track="ogrenci">
+                <span class="row__name mask"><span>Öğrenciler için AI</span></span>
+                <span class="row__text">Araştırın, bilgiyi doğrulayın ve fikirlerinizi hikâyelere, videolara, çalışan uygulamalara dönüştürün.</span>
+                <span class="row__go" data-icon="arrow-up-right"></span>
+              </a>
+            </li>
+            <li class="row rv">
+              <a class="row__link" href="#kurumsal">
+                <span class="row__name mask"><span>Kurumlar için AI</span></span>
+                <span class="row__text">Ekibinizin AI becerilerini geliştirin. Kurumunuzun ihtiyaçlarına uygun kullanım yöntemleri ve iş akışları oluşturun.</span>
+                <span class="row__go" data-icon="arrow-up-right"></span>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- PROGRAM PATHS: horizontal on desktop, vertical thread on mobile -->
+      <section class="paths" id="egitimler" data-bg="mint" aria-label="Programlar">
+        <div class="paths__stage">
+          <div class="jx-spot jx-spot--egitimler" data-jx-spot="egitimler" aria-hidden="true"></div>
+          <div class="paths__track">
+            <div class="track" data-track-id="ogretmen">
+              <svg class="track__curve" aria-hidden="true"><path class="guide" pathLength="1" /><path class="ink" pathLength="1" /></svg>
+              <header class="track__head">
+                <h2 class="h2">Öğretmenler için programlar</h2>
+                <p>Üç adımda, ilk ders planından kendi eğitim uygulamanıza.</p>
+              </header>
+              <article class="station" data-level="0">
+                <span class="station__dot" aria-hidden="true"></span>
+                <p class="station__hours"><b>8</b> saat</p>
+                <h3>AI Teacher</h3>
+                <p>Yapay zekâyla ders planı, çalışma kâğıdı ve değerlendirme materyali hazırlamayı öğrenin.</p>
+                <p class="station__tag">Başlangıç</p>
+              </article>
+              <article class="station" data-level="1">
+                <span class="station__dot" aria-hidden="true"></span>
+                <p class="station__hours"><b>16</b> saat</p>
+                <h3>AI Teacher Pro</h3>
+                <p>Kaynaklarla çalışın, öğrenme verilerini analiz edin ve tekrar kullanılabilir öğretmen iş akışları geliştirin.</p>
+                <p class="station__tag">İş akışları</p>
+              </article>
+              <article class="station" data-level="2">
+                <span class="station__dot" aria-hidden="true"></span>
+                <p class="station__hours"><b>24</b> saat</p>
+                <h3>AI Teacher Lab</h3>
+                <p>AI desteğiyle kendi quiz, oyun, simülasyon veya eğitim uygulamanızı geliştirin. Kodlama geçmişi gerekmez.</p>
+                <p class="station__tag">Ürün geliştirme</p>
+              </article>
+              <div class="track__end">
+                <a class="btn btn--coral" href="#iletisim" data-role="ogretmen">Öğretmen Eğitimleri Hakkında Bilgi Al</a>
+              </div>
+            </div>
+
+            <div class="track" data-track-id="ogrenci">
+              <svg class="track__curve" aria-hidden="true"><path class="guide" pathLength="1" /><path class="ink" pathLength="1" /></svg>
+              <header class="track__head">
+                <h2 class="h2">Öğrenciler için programlar</h2>
+                <p>Merakla başlayan, çalışan bir dijital ürünle biten bir yol.</p>
+              </header>
+              <article class="station" data-level="0">
+                <span class="station__dot" aria-hidden="true"></span>
+                <p class="station__hours"><b>16</b> saat</p>
+                <h3>AI Start</h3>
+                <p>Yapay zekâyı tanı, doğru sorular sor ve bilgiyi kontrol et. İlk dijital öğrenme projeni hazırla.</p>
+                <p class="station__tag">5-8. sınıf</p>
+              </article>
+              <article class="station" data-level="1">
+                <span class="station__dot" aria-hidden="true"></span>
+                <p class="station__hours"><b>20</b> saat</p>
+                <h3>AI Creator</h3>
+                <p>Hikâye, görsel, ses ve video üret. Kendi yaratıcı portfolyonu oluştur.</p>
+                <p class="station__tag">7-12. sınıf, yaş ve seviyeye göre gruplar</p>
+              </article>
+              <article class="station" data-level="2">
+                <span class="station__dot" aria-hidden="true"></span>
+                <p class="station__hours"><b>36</b> saat</p>
+                <h3>AI Builder</h3>
+                <p>Bir problem seç, çözümünü tasarla ve çalışan bir dijital ürün geliştir. Kodlama geçmişi gerekmez.</p>
+                <p class="station__tag">Lise</p>
+              </article>
+              <div class="track__end">
+                <a class="btn btn--coral" href="#iletisim" data-role="veli">Çocuğum İçin Program Bilgisi Al</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEMINARS & WORKSHOPS -->
+      <section class="events" id="seminerler" data-bg="sky" aria-labelledby="seminer-title">
+        <div class="wrap events__grid">
+          <div class="events__head">
+            <h2 class="h2 rv" id="seminer-title">
+              <span class="mask"><span>Seminerler &amp;</span></span>
+              <span class="mask"><span style="--d: 1">Workshoplar</span></span>
+            </h2>
+            <p class="lead rv rv--fade">Yapay zekâyla tanışın veya tek bir beceriye odaklanarak uygulama yapın.</p>
+            <a class="btn btn--accent rv rv--fade" href="#iletisim" data-interest="Seminer / Workshop">Etkinlikler İçin İlgi Bildir</a>
+            <div class="jx-spot jx-spot--seminerler" data-jx-spot="seminerler" aria-hidden="true"></div>
+          </div>
+          <div class="events__lists">
+            <div class="events__group">
+              <h3 class="events__label">Seminerler</h3>
+              <ul role="list">
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Yapay Zekâya İlk Adım"><span class="mask"><span>Yapay Zekâya İlk Adım</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Eğitimde AI Kullanımı"><span class="mask"><span>Eğitimde AI Kullanımı</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Veliler için AI Rehberi"><span class="mask"><span>Veliler için AI Rehberi</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Bilgi Doğrulama ve Dijital Farkındalık"><span class="mask"><span>Bilgi Doğrulama ve Dijital Farkındalık</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+              </ul>
+            </div>
+            <div class="events__group">
+              <h3 class="events__label">Workshoplar</h3>
+              <ul role="list">
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="AI ile Ders Paketi Hazırla"><span class="mask"><span>AI ile Ders Paketi Hazırla</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Etkili Prompt Yazımı"><span class="mask"><span>Etkili Prompt Yazımı</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Hikâyeden Görsele ve Videoya"><span class="mask"><span>Hikâyeden Görsele ve Videoya</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+                <li class="rv"><a class="event" href="#iletisim" data-interest="Seminer / Workshop" data-event="Kendi Quiz Uygulamanı Tasarla"><span class="mask"><span>Kendi Quiz Uygulamanı Tasarla</span></span><span class="event__go" data-icon="arrow-up-right" aria-hidden="true"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INSTITUTIONS -->
+      <section class="corp" id="kurumsal" data-bg="milk" aria-labelledby="kurum-title" data-scrub="view">
+        <div class="corp__panel">
+          <svg class="corp__orbit" viewBox="0 0 1000 560" preserveAspectRatio="none" aria-hidden="true">
+            <ellipse cx="500" cy="280" rx="470" ry="250" pathLength="1" />
+            <ellipse cx="560" cy="280" rx="380" ry="200" pathLength="1" />
+          </svg>
+<div class="jx-spot jx-spot--kurumsal" data-jx-spot="kurumsal" aria-hidden="true"></div>
+          <div class="corp__body">
+            <h2 class="h2 rv" id="kurum-title">
+              <span class="mask"><span>Kurumunuza özel</span></span>
+              <span class="mask"><span style="--d: 1">bir öğrenme planı</span></span>
+            </h2>
+            <p class="lead rv rv--fade">
+              Okulunuzun veya ekibinizin ihtiyaçlarına göre farkındalık seminerleri, uygulamalı eğitimler ve iş akışı geliştirme programları planlayalım.
+            </p>
+            <a class="btn btn--accent rv rv--fade" href="#iletisim" data-role="kurum">Kurumsal Eğitim İçin Görüşelim</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- METHOD -->
+      <section class="method" id="yontem" data-bg="peach" aria-labelledby="yontem-title">
+        <div class="wrap method__intro">
+          <h2 class="h2 rv" id="yontem-title">
+            <span class="mask"><span>Uygulayarak öğrenin,</span></span>
+            <span class="mask"><span style="--d: 1">somut bir çalışmayla</span></span>
+            <span class="mask"><span style="--d: 2">tamamlayın.</span></span>
+          </h2>
+          <div class="method__cols">
+            <p class="rv rv--fade">Gerçek bir görevle başlayın. Eğitmen rehberliğinde üretin, çıktınızı kontrol edin ve geri bildirimle geliştirin.</p>
+            <p class="rv rv--fade" style="--d: 1">Programınıza göre bir ders paketi, yaratıcı portfolyo, iş akışı veya çalışan dijital ürün ortaya koyun.</p>
+          </div>
+        </div>
+        <div class="creed" data-scrub="sticky">
+          <div class="creed__stage">
+            <div class="jx-spot jx-spot--yontem" data-jx-spot="yontem" aria-hidden="true"></div>
+            <p class="creed__text" data-words>
+              <span class="creed__ai">AI önerir.</span>
+              <span class="creed__human">İnsan değerlendirir.</span>
+              <span class="creed__human">İnsan karar verir.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRAINERS -->
+      <section class="team" id="egitmenler" data-bg="milk" aria-labelledby="egitmen-title">
+        <div class="wrap team__grid">
+          <div class="team__head">
+            <h2 class="h2 rv" id="egitmen-title">
+              <span class="mask"><span>Eğitmenlerimiz</span></span>
+            </h2>
+            <p class="lead rv rv--fade">Her programı, yapay zekâyı sınıfta ve kurumda uygulayarak öğreten eğitmenlerimiz yürütür.</p>
+            <div class="jx-spot jx-spot--egitmenler" data-jx-spot="egitmenler" aria-hidden="true"></div>
+          </div>
+          <!-- TODO: eğitmen adlarını ekleyin (figcaption içine, unvanın üstüne) -->
+          <figure class="person person--1" data-scrub="view">
+            <div class="person__img">
+              <picture>
+                <img src="/media/egitmen-1.jpg" alt="Eğitim teknolojileri ve yapay zekâ eğitmeni, portre" width="612" height="708" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+            <figcaption>
+              <b>Eğitim Teknolojileri ve AI Eğitmeni</b>
+              <span>Öğretmen programları ve eğitimde yapay zekâ kullanımı</span>
+            </figcaption>
+          </figure>
+          <figure class="person person--2" data-scrub="view">
+            <div class="person__img">
+              <picture>
+                <img src="/media/egitmen-2.jpg" alt="Uygulamalı yapay zekâ eğitmeni, portre" width="730" height="850" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+            <figcaption>
+              <b>Uygulamalı Yapay Zekâ Eğitmeni</b>
+              <span>Öğrenci programları ve kurumsal eğitimler</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="iletisim" data-bg="sky" aria-labelledby="iletisim-title" data-scrub="view">
+        <svg class="contact__orbit" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <ellipse cx="500" cy="500" rx="480" ry="300" transform="rotate(-18 500 500)" pathLength="1" />
+        </svg>
+        <div class="wrap contact__grid">
+          <div class="contact__head">
+            <h2 class="h2 rv" id="iletisim-title">
+              <span class="mask"><span>Size uygun programı</span></span>
+              <span class="mask"><span style="--d: 1">birlikte belirleyelim.</span></span>
+            </h2>
+            <p class="lead rv rv--fade">Hedefinizi paylaşın, nereden başlayabileceğinizi konuşalım.</p>
+            <div class="jx-spot jx-spot--iletisim" data-jx-spot="iletisim" aria-hidden="true"></div>
+          </div>
+
+          <form class="form rv rv--fade" novalidate data-form aria-describedby="f-required">
+            <p class="form__required" id="f-required">Tüm alanlar zorunludur.</p>
+            <div class="form__summary" role="alert" tabindex="-1" hidden>
+              <p><b>Formu göndermek için şunları düzeltin:</b></p>
+              <ul></ul>
+            </div>
+            <fieldset class="form__roles">
+              <legend>Kimsiniz?</legend>
+              <label><input type="radio" name="rol" value="ogretmen" checked /><span>Öğretmenim</span></label>
+              <label><input type="radio" name="rol" value="veli" /><span>Veliyim</span></label>
+              <label><input type="radio" name="rol" value="kurum" /><span>Kurum Temsilcisiyim</span></label>
+            </fieldset>
+
+            <div class="field">
+              <label for="f-name">Ad soyad</label>
+              <input id="f-name" name="ad" type="text" autocomplete="name" required minlength="2" aria-describedby="f-name-err" data-err="f-name-err" />
+              <p class="field__err" id="f-name-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-contact">E-posta veya telefon</label>
+              <input id="f-contact" name="iletisim" type="text" autocomplete="email" inputmode="email" required aria-describedby="f-contact-help f-contact-err" data-err="f-contact-err" />
+              <p class="field__help" id="f-contact-help">Size hangisiyle ulaşmamızı isterseniz: ornek@okul.com veya 0532 123 45 67</p>
+              <p class="field__err" id="f-contact-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-interest">İlgilendiğiniz eğitim</label>
+              <div class="select">
+                <select id="f-interest" name="egitim" required aria-describedby="f-event f-interest-err" data-err="f-interest-err"></select>
+                <span data-icon="caret-down" aria-hidden="true"></span>
+              </div>
+              <input type="hidden" name="etkinlik" value="" />
+              <p class="field__pick" id="f-event" hidden>
+                <span>Seçtiğiniz etkinlik: <b></b></span>
+                <button type="button" class="field__clear">Kaldır</button>
+              </p>
+              <p class="field__err" id="f-interest-err" aria-live="polite"></p>
+            </div>
+            <div class="field field--check">
+              <label class="check" for="f-riza">
+                <input id="f-riza" name="riza" type="checkbox" required aria-describedby="f-riza-err" data-err="f-riza-err" />
+                <span>Talebime dönüş yapılabilmesi için kişisel verilerimin, <a href="/kvkk.html" target="_blank" rel="noopener">KVKK Aydınlatma Metni<span class="sr-only"> (yeni sekmede açılır)</span></a>'nde belirtilen yurt dışındaki e-posta ve form iletim hizmet sağlayıcılarına aktarılmasına açık rıza veriyorum.</span>
+              </label>
+              <p class="field__err" id="f-riza-err" aria-live="polite"></p>
+            </div>
+            <!-- spam trap: people never see or fill this -->
+            <input class="sr-only" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <button class="btn btn--accent btn--submit" type="submit">
+              <span class="btn__label">Program Bilgisi Al</span>
+              <span class="btn__spin" aria-hidden="true"></span>
+            </button>
+            <p class="form__fail" role="alert" hidden>
+              Talebiniz şu an gönderilemedi. Tekrar deneyebilir ya da bize doğrudan <a class="form__mail" href="mailto:hello@pergaakademi.com">hello@pergaakademi.com</a> adresinden yazabilirsiniz.
+            </p>
+            <p class="form__note">
+              Program süreleri planlanan kapsamı gösterir. Tarih, ücret ve katılım koşulları dönem bazında paylaşılır. Bilgi talebi kesin kayıt oluşturmaz. Kişisel verileriniz <a href="/kvkk.html">KVKK Aydınlatma Metni</a> kapsamında işlenir.
+            </p>
+
+            <div class="form__done" role="status" tabindex="-1" hidden>
+              <span data-icon="check" aria-hidden="true"></span>
+              <div>
+                <p><b>Talebiniz alındı.</b> Size en kısa sürede dönüş yapacağız.</p>
+                <button type="button" class="form__again">Yeni bir talep gönder</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot__grid">
+<div class="jx-spot jx-spot--footer" data-jx-spot="footer" aria-hidden="true"></div>
+        <img class="foot__logo" src="/media/logo.svg" alt="Perga Tech Akademi" width="1640" height="400" loading="lazy" />
+        <p class="foot__line"><b>PERGA AKADEMİ</b> Uygulamalı Yapay Zekâ Eğitim Merkezi</p>
+        <nav class="foot__links" aria-label="Alt menü">
+          <a href="#iletisim">İletişim</a>
+          <a href="/gizlilik.html">Gizlilik Politikası</a>
+          <a href="/kvkk.html">KVKK Aydınlatma Metni</a>
+          <a href="/cerez-politikasi.html">Çerez Politikası</a>
+          <button type="button" class="foot__btn" data-cookie-prefs>Çerez Tercihleri</button>
+        </nav>
+        <address class="foot__legal">
+          <span>Perga Tech Yeni Nesil Teknolojiler Anonim Şirketi</span>
+          <span>Maslak Mah. Eski Büyükdere Cad. No: 21 İç Kapı No: 1 Sarıyer / İstanbul</span>
+          <span>MERSİS: 0728090143800001</span>
+          <span><a href="mailto:hello@pergaakademi.com">hello@pergaakademi.com</a></span>
+        </address>
+      </div>
+    </footer>
+
+
+    <!-- OTTER JEKSIN: the guide who swims through the page (src/jeksin.js) -->
+    <div class="jx__trail" aria-hidden="true"></div>
+    <div class="jx" data-jx hidden>
+      <button class="jx__otter" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="jx-chat" aria-label="Otter Jeksın ile konuş. Sürükleyerek ya da ok tuşlarıyla taşıyabilirsin.">
+        <span class="jx__water" aria-hidden="true"></span>
+        <canvas aria-hidden="true"></canvas>
+      </button>
+      <div class="jx__say" aria-hidden="true">
+        <p class="jx__line"></p>
+        <div class="jx__chips"></div>
+      </div>
+    </div>
+    <button class="jx-return" type="button" hidden>Otter Jeksın'ı çağır</button>
+
+    <section class="jx-chat" id="jx-chat" role="dialog" aria-modal="false" aria-labelledby="jx-chat-title" hidden>
+      <header class="jx-chat__head">
+        <div>
+          <h2 id="jx-chat-title">Otter Jeksın</h2>
+          <p>Perga Tech Akademi'nin su samuru rehberi</p>
+        </div>
+        <button class="jx-chat__close" type="button" aria-label="Sohbeti kapat"><span data-icon="x"></span></button>
+      </header>
+      <div class="jx-chat__log" role="log" aria-live="polite" aria-relevant="additions"></div>
+      <div class="jx-chat__chips"></div>
+      <form class="jx-chat__ask" autocomplete="off">
+        <label class="sr-only" for="jx-q">Otter Jeksın'a sor</label>
+        <input id="jx-q" name="q" type="text" placeholder="Jeksın'a bir soru yaz" enterkeyhint="send" />
+        <button class="btn btn--accent jx-chat__send" type="submit">Sor</button>
+      </form>
+      <footer class="jx-chat__foot">
+        <p>Jeksın sitedeki bilgilerle cevap verir. Bilmediği soruları ekibe iletmen için formu önerir.</p>
+        <button class="jx-chat__hide" type="button">Jeksın'ı gizle</button>
+      </footer>
+    </section>
+
+    <!-- WELCOME GATE: after the hero Jeksın asks one question before the page continues -->
+    <div class="jx-gate" id="jx-gate" role="dialog" aria-modal="true" aria-labelledby="jx-gate-title" aria-describedby="jx-gate-q" hidden>
+      <div class="jx-gate__space" aria-hidden="true"></div>
+      <div class="jx-gate__card">
+        <h2 id="jx-gate-title">Merhaba, ben Otter Jeksın!</h2>
+        <p id="jx-gate-q">Sana en uygun yolu birlikte bulalım. Sen kimsin?</p>
+        <div class="jx-gate__opts">
+          <button type="button" class="jx-gate__opt" data-choice="ogretmen">Öğretmenim</button>
+          <button type="button" class="jx-gate__opt" data-choice="ogrenci">Öğrenci ya da veliyim</button>
+          <button type="button" class="jx-gate__opt" data-choice="kurum">Kurumum</button>
+          <button type="button" class="jx-gate__opt jx-gate__opt--free" data-choice="kesif">Kendim keşfetmek istiyorum</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
